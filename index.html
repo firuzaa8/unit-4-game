@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src=assets/javascript/game.js></script>
+    <title>Crystal Collector</title>
+</head>
+<body>
+<div class = "header">Crystal Collector</div>
+<p class = "rules">You will be given a random number at the start of the game. 
+<br><br>There are four crystals below. By clicking on a crystal you will add a specific 
+amount of points to your total score. 
+<br><br>You win the game by matching your total score to random number, 
+you lose the game if your total score goes above the random number. 
+<br><br>The value of each crystal is hidden from you until you click on it.
+<br><br>Each time when the game starts, the game will change the values of each 
+crystal.</p>
+
+<div class="row">
+    <div class="col-xs-1" id="randomNumber">
+        <span id="number"></span>
+    </div>
+    <div class="col-xs-1" id="stats">
+        Wins: <span id="wins"></span><br/>
+        Losses: <span id="losses"></span>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-1 crystal"><img class="crystal-img" src="assets/images/crystal1.jpg" id="crystal1"></div>
+    <div class="col-xs-1 crystal"><img class="crystal-img" src="assets/images/crystal2.jpg" id="crystal2"></div>
+    <div class="col-xs-1 crystal"><img class="crystal-img" src="assets/images/crystal3.jpg" id="crystal3"></div>
+    <div class="col-xs-1 crystal"><img class="crystal-img" src="assets/images/crystal4.jpg" id="crystal4"></div>
+</div>
+
+<div id="scoreHeading">Your total score is:</div>
+<div id="totalScore"><span id="number2"></span></div>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    background-image: url("../images/cool-background.png")
+}
+.header {
+    padding: 15px;
+    background-color: blueviolet;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.rules {
+    background-color: #ECD4CF;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: blue;
+    width: 800px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+#totalScore {
+    background-color: aquamarine;
+    padding: 20px;
+    width: 250px;
+    height: 125px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#randomNumber {
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 250px;
+    height: 125px;
+ }
+
+ #stats {
+    background-color: #EAF48B;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 20px;
+    width: 150px;
+    height: 125px;
+}
+
+#scoreHeading {
+    background-color: #A3C4C4;
+    padding: 15px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.row {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    grid-row-gap: 5px;
+}
+
+.crystal {
+    margin: 10px;
+}
+
+.crystal-img {
+    height: 90px;
+    width: 90px;
+}
